@@ -23,9 +23,11 @@ When rapidly prototyping and experimenting with new ideas, starting with a clean
 
 The name of the project is random and just some unique identifier...like `distinctdeer` for example. I don't care what the name is as long as I can quickly generate an empty project quickly.
 
-distinctdeer is better than `project`, `project1`, `project2-1`, etc. `distinctdeer` is just as arbitrary as project1, project2-1, etc., why not make it funner? `distinctdeer` is assumed to be unique and easily searchable.
+The name `distinctdeer` is better than `project`, `project1`, `project2-1`, etc. `distinctdeer` is just as arbitrary as `project1`, `project2-1`, etc., why not make it funner?
 
-## Why Arbitrary Names?
+`distinctdeer` is assumed to be unique and easily searchable.
+
+## Why the Arbitrary Names?
 
 The concept of using arbitrary, non-meaningful names has a notable precedent in the webcomic xkcd. As creator Randall Munroe explains, the name "xkcd" itself has no particular significance - it's "simply a four-letter word without a phonetic pronunciation" that he describes as "a treasured and carefully guarded point in the space of four-character strings" [1].
 
