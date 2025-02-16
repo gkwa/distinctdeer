@@ -32,7 +32,7 @@ This philosophy of arbitrary naming offers several benefits for development work
 4. Clean Separation - Distinct names prevent confusion between similar iterations
 5. Reduced Cognitive Load - One less decision to make when starting a new project
 
-[1] Source: https://en.wikipedia.org/wiki/Xkcd#Name_and_history
+[1] Source: https://en.wikipedia.org/wiki/Xkcd#:~:text=According%20to%20Munroe%2C%20the%20comic's,of%20four%2Dcharacter%20strings%22.
 
 ## Commands
 
