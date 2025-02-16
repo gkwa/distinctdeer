@@ -1,6 +1,11 @@
 # distinctdeer
 
-A command-line tool to streamline project creation workflow by automating project name management.
+tldr:
+
+1. Read names from a predefined list of names in a Markdown file
+2. Allow you to select an available name
+3. Automatically mark the selected name as "used" in the source file
+4. Copy the selected name to your clipboard for immediate use
 
 ## Motivation
 
