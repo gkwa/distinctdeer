@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Parse markdown project name examples"
 readme = "README.md"
 authors = [{ name = "Taylor Monacelli", email = "taylormonacelli@gmail.com" }]
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = ["markdown-it-py", "mdformat", "pyperclip>=1.9.0"]
 
 [project.scripts]
