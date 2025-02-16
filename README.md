@@ -4,12 +4,12 @@ A command-line tool to streamline project creation workflow by automating projec
 
 ## Motivation
 
-When rapidly prototyping and experimenting with new ideas, starting with a clean slate is crucial. This tool addresses two key challenges in the iterative development process:
+When rapidly prototyping and experimenting with new ideas, starting with a clean slate is crucial to keeping a clear head. This tool `distinctdeer`, addresses two key challenges in the iterative development process:
 
 1. The need to eliminate time spent thinking up project names by quickly fetching them from a predefined list
 2. Keeping track of which project names have been used
 
-The tool is especially useful when working with AI assistants (like Claude) for project scaffolding, where you want to:
+`distinctdeer` is especially useful when working with AI assistants (like Claude) for project scaffolding, where you want to:
 
 - Start multiple variations of projects with different approaches
 - Avoid being encumbered by existing dependencies
@@ -17,6 +17,22 @@ The tool is especially useful when working with AI assistants (like Claude) for 
 - Maintain a clear separation between different attempts
 
 The name of the project is random and just some unique identifier... like distinctdeer (for example). I don't care what the name is as long as I can quickly generate an empty project quickly.
+
+distinctdeer is better than project, project1, project2-1, etc. What in a name
+
+## Why Arbitrary Names?
+
+The concept of using arbitrary, non-meaningful names has a notable precedent in the webcomic xkcd. As creator Randall Munroe explains, the name "xkcd" itself has no particular significance - it's "simply a four-letter word without a phonetic pronunciation" that he describes as "a treasured and carefully guarded point in the space of four-character strings" [1].
+
+This philosophy of arbitrary naming offers several benefits for development workflows:
+
+1. Mental Clarity - Using meaningless names prevents emotional attachment to projects that may need to be abandoned
+2. Rapid Iteration - No time spent brainstorming the "perfect" name for each experiment
+3. Equal Status - All projects start as equals, without implied hierarchy or importance
+4. Clean Separation - Distinct names prevent confusion between similar iterations
+5. Reduced Cognitive Load - One less decision to make when starting a new project
+
+[1] Source: https://en.wikipedia.org/wiki/Xkcd#Name_and_history
 
 ## Commands
 
