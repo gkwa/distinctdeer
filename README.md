@@ -18,7 +18,7 @@ When rapidly prototyping and experimenting with new ideas, starting with a clean
 
 The name of the project is random and just some unique identifier... like distinctdeer (for example). I don't care what the name is as long as I can quickly generate an empty project quickly.
 
-distinctdeer is better than project, project1, project2-1, etc. What in a name
+distinctdeer is better than project, project1, project2-1, etc. `distinctdeer` is just as arbitrary as project1, project2-1, etc. why not make it funner. `distinctdeer` is assumed to be unique and easily searchable.
 
 ## Why Arbitrary Names?
 
