@@ -1,0 +1,31 @@
+[project]
+name = "distinctdeer"
+version = "0.1.0"
+description = "Parse markdown project name examples"
+readme = "README.md"
+authors = [
+    { name = "Taylor Monacelli", email = "taylormonacelli@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "markdown-it-py",
+    "mdformat",
+    "pyperclip>=1.9.0",
+]
+
+[project.scripts]
+distinctdeer = "distinctdeer.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+]
+
+[tool.ruff.lint]
+extend-select = ["I"]
+
