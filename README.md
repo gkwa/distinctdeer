@@ -1,5 +1,3 @@
--- README.md --
-
 # distinctdeer
 
 A command-line tool to streamline project creation workflow by automating project name management.
