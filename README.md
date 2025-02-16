@@ -9,7 +9,7 @@ tldr:
 
 ## Motivation
 
-When rapidly prototyping and experimenting with new ideas, starting with a clean slate is crucial to keeping a clear head. This tool `distinctdeer`, addresses two key challenges in the iterative development process:
+When rapidly prototyping and experimenting with new ideas, starting with a clean slate is crucial to keeping a clear head. This tool `distinctdeer,` addresses two key challenges in the iterative development process:
 
 1. The need to eliminate time spent thinking up project names by quickly fetching them from a predefined list
 2. Keeping track of which project names have been used
