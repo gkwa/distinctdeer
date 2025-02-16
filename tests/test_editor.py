@@ -34,9 +34,9 @@ def test_mark_as_checked_preserves_newline():
     assert updated_content.endswith("\n"), "Updated content should end with newline"
 
     # Count the number of newlines at the end to ensure we're not adding extras
-    assert not updated_content.endswith("\n\n"), (
-        "Updated content should not have multiple trailing newlines"
-    )
+    assert not updated_content.endswith(
+        "\n\n"
+    ), "Updated content should not have multiple trailing newlines"
 
 
 def test_mark_as_checked_integration(tmp_path):
@@ -57,9 +57,9 @@ def test_mark_as_checked_integration(tmp_path):
     # Verify file ends with exactly one newline
     file_content = test_file.read_text()
     assert file_content.endswith("\n"), "File should end with newline"
-    assert not file_content.endswith("\n\n"), (
-        "File should not have multiple trailing newlines"
-    )
+    assert not file_content.endswith(
+        "\n\n"
+    ), "File should not have multiple trailing newlines"
 
 
 def test_workflow_find_and_mark_unused():
