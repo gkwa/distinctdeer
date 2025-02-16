@@ -11,7 +11,7 @@ tldr:
 
 When rapidly prototyping and experimenting with new ideas, starting with a clean slate is crucial to keeping a clear head. This tool `distinctdeer,` addresses two key challenges in the iterative development process:
 
-1. The need to eliminate time spent thinking up project names by quickly fetching them from a predefined list
+1. The need to eliminate time spent thinking up a project name by quickly fetching it from a predefined list of acceptable names
 2. Keeping track of which project names have been used
 
 `distinctdeer` is especially useful when working with AI assistants (like Claude) for project scaffolding, where you want to:
