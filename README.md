@@ -9,7 +9,7 @@ get a project name from a list of pre-defined project names and mark the one I g
 3. Automatically mark the selected name as "used" in the source markdown file
 4. Copy the selected name to your clipboard for immediate use
 
-[^1]: The project names are systematically generated using Claude with specific prompting for consistency. See the section for details [Project Name Generation].
+[^1]: The project names are systematically generated using Claude with specific prompting for consistency. See the section for details [#project-name-generation].
 
 ## Motivation
 
