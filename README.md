@@ -9,6 +9,8 @@ get a project name from a list of pre-defined project names and mark the one I g
 3. Automatically mark the selected name as "used" in the source markdown file
 4. Copy the selected name to your clipboard for immediate use
 
+[^1]: The project names are systematically generated using Claude with specific prompting for consistency. See the section for details on the prompting methodology.
+
 ## Motivation
 
 When rapidly prototyping and experimenting with new ideas, starting with a clean slate is crucial to keeping a clear head. This tool `distinctdeer,` addresses two key challenges in the iterative development process:
@@ -144,4 +146,36 @@ distinctdeer use check cosmic-penguin
 distinctdeer --path /path/to/names.md get all
 ```
 
-[^1]: The list of predefined names was generated using Claude with specific prompting for playful, memorable combinations. The prompt requested light, humorous project names following patterns like adjective-animal pairs (e.g., "TipsyPenguin", "DapperPlatypus"). This systematic approach ensures consistent naming quality while maintaining the arbitrary, non-meaningful nature of the identifiers.
+## Project Name Generation
+
+The predefined list of project names is generated using Claude through a structured prompting approach. This methodology ensures consistent, high-quality name generation while maintaining the arbitrary nature that makes the names effective.
+
+### Prompt Structure
+
+```markdown
+## Question
+
+I need a list of project names that are light, humorous, and fun. Maybe using adjective + animal pairs would be good. What other patterns might you suggest?
+
+## Answer Format
+
+Please provide:
+
+1. Several different naming patterns with examples
+2. A larger set of names following these patterns
+3. Names should be organized into clear categories
+4. Each name should be:
+   - Memorable but meaningless
+   - Two words combined
+   - Easy to type
+   - Unique when searched
+```
+
+This prompting approach:
+
+- Explicitly requests different naming patterns to ensure variety
+- Specifies structural requirements (two-word combinations)
+- Emphasizes the need for memorability and searchability
+- Asks for categorization to maintain organization
+
+The result is a curated list of project names that are arbitrary yet follow consistent patterns, making them ideal for rapid prototyping while maintaining the philosophy of meaningful meaninglessness inspired by xkcd.
