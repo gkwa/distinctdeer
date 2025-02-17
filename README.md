@@ -148,7 +148,7 @@ distinctdeer --path /path/to/names.md get all
 
 ## Project Name Generation
 
-The predefined list of project names is generated using Claude through a structured prompting approach. This methodology ensures consistent, high-quality name generation while maintaining the arbitrary nature that makes the names effective.
+The predefined list of project names is generated using Claude through a structured prompting approach. This ensures consistent, high-quality name generation while maintaining the arbitrary nature that makes the names effective.
 
 ### Prompt Structure
 
