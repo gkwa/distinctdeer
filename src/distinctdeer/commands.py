@@ -9,9 +9,8 @@ def handle_use_command(args, content):
             name = selector.select_random_unused(content)
             updated_content = editor.mark_as_checked(content, name)
             args.path.write_text(updated_content)
-            print(f"Selected and marked as used: {name}")
+            print(name)
             pyperclip.copy(name)
-            print("(Copied to clipboard)")
         except selector.NoUnusedNamesError as e:
             print(f"Error: {e}")
         return
@@ -35,9 +34,8 @@ def handle_get_command(args, content):
     elif args.subcommand == "rand":
         try:
             name = selector.select_random_unused(content)
-            print(f"Random unused name: {name}")
+            print(name)
             pyperclip.copy(name)
-            print("(Copied to clipboard)")
         except selector.NoUnusedNamesError as e:
             print(f"Error: {e}")
     else:
