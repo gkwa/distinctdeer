@@ -2,7 +2,9 @@
 
 tldr:
 
-1. Read names from a predefined list of names in a Markdown file
+get a project name from a list of pre-defined project names and mark the one I got as used
+
+1. Read names from a predefined list of names in a Markdown file[^1]
 2. Allow you to select an available name
 3. Automatically mark the selected name as "used" in the source markdown file
 4. Copy the selected name to your clipboard for immediate use
@@ -141,3 +143,5 @@ distinctdeer use check cosmic-penguin
 # Use custom project names file
 distinctdeer --path /path/to/names.md get all
 ```
+
+[^1]: The list of predefined names was generated using Claude with specific prompting for playful, memorable combinations. The prompt requested light, humorous project names following patterns like adjective-animal pairs (e.g., "TipsyPenguin", "DapperPlatypus"). This systematic approach ensures consistent naming quality while maintaining the arbitrary, non-meaningful nature of the identifiers.
