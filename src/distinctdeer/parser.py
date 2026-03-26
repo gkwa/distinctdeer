@@ -16,13 +16,13 @@ def parse_markdown(content: str) -> ParsedData:
     used_items = {}
     unused_items = {}
 
-    for token in tokens:
+    for i, token in enumerate(tokens):
         if token.type == "heading_open":
-            current_section = tokens[tokens.index(token) + 1].content
+            current_section = tokens[i + 1].content
             used_items[current_section] = []
             unused_items[current_section] = []
         elif token.type == "list_item_open":
-            item_tokens = tokens[tokens.index(token) + 1 : tokens.index(token) + 4]
+            item_tokens = tokens[i + 1 : i + 4]
             for item in item_tokens:
                 if "[" in item.content and "]" in item.content:
                     project_name = item.content.split("]")[1].split("✅")[0].strip()
